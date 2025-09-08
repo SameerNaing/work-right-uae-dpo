@@ -78,8 +78,3 @@ if __name__ == "__main__":
     df.merge(persona_data_df, on="id").to_csv("./data/doc_with_persona.csv", index=False)
     
     
-    
-""" 
-doc_with_persona.csv
-questions.csv
-"""
